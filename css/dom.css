@@ -1,0 +1,92 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	background: #363D52;
+	color: #fff;
+	font-size: 18px;
+}
+
+.hero-feature {
+	margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
+}
+
+footer {
+	margin: 20px 0;
+}
+
+form {
+	padding:0px 8px;
+}
+
+.container {
+	background-color: #111111;
+}
+
+.linkblock {
+  display: inline-block;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  margin-bottom: 8px;
+  line-height: 1.428571429;
+  background-color: #111B1C;
+  border: 1px solid #111B1C;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.linkblock h3 {
+	font-size:1.1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#D3FF82;
+	background:#363D52;
+	margin:0px;
+	padding: 6px 6px;
+}
+
+.linkblock h4 {
+	font-size:1.1em;
+	font-weight:normal;
+	color:#94B24D;
+	padding:0px 8px;
+	margin:10px 0px 4px 0px;
+	background:transparent;
+}
+
+a {
+	color: #94B24D;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:hover {
+	color:#D3FF82;
+}
+a:visited {
+	color:#9FB4CC;
+}
+
+ul.menu {
+	list-style:none;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 0px 0px 0px 20px;
+}
+ul.menu li {
+	margin:0;
+}
+ul.menu li a {
+	display:block;
+	padding:3px 1px;
+	font-size:1.1em;
+}
+ul.menu li a:hover {
+	background:#363D52;
+}
+ul.menu li a:active {
+	background:#363D52;
+}
+input, select, textarea{
+    color: #000000;
+}
